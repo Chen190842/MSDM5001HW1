@@ -1,0 +1,4 @@
+#!/bin/bash
+egrep "blockID=\"i[0-9]{3}"  blocklist.xml > blockfindig.txt
+egrep "blockID=\"g[0-9]{3}" blocklist.xml >> blockfindig.txt
+grep "@" blocklist.xml | grep "." | grep -v [-^] > blockfindmail.txt
