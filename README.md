@@ -1,6 +1,6 @@
 # MSDM5001HW1
 the version of operating system: Ubuntu 20.04.1 LTS
-the version of bash/python: Ubuntu 5.0.17(1)
+the version of bash/python:5.0.17(1)
 
 createfile: Changing the permission using ‘chmod +x createfile’. Run this bash script in Ubuntu terminal using: ./ createfile, it will create 100 requested files in the current path. 
 
